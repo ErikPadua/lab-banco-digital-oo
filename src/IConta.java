@@ -1,5 +1,6 @@
 
-public interface IConta {
+public interface IConta 
+{
 	
 	void sacar(double valor);
 	

@@ -29,6 +29,9 @@ public abstract class Conta implements IConta {
 	public void transferir(double valor, IConta contaDestino) {
 		this.sacar(valor);
 		contaDestino.depositar(valor);
+		System.out.println();
+		System.out.println("=== Tranferencia no valor de: " + valor + "===");
+		System.out.println();
 	}
 
 	public int getAgencia() {
